@@ -1,4 +1,4 @@
-// Producer.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+// Producer.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include <stdlib.h>
@@ -14,6 +14,7 @@
 #   include <unistd.h>
 #   include <sys/types.h>
 #   include <signal.h>
+#   include <sys/time.h>
 #endif
 
 #include <DefaultMQProducer.h>
