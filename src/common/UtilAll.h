@@ -30,7 +30,7 @@ const std::string WHITESPACE=" \t\r\n";
 const int CHUNK = 8192;
 
 /**
-* 各种方法大杂烩
+* 赂梅脰脰路陆路篓麓贸脭脫禄芒
 *
 */
 class UtilAll
@@ -43,7 +43,7 @@ public:
 		{
 			std::string::size_type right = in.find(delimiter,left);
 
-			if (right = std::string::npos)
+			if (right == std::string::npos)
 			{
 				break;
 			}
@@ -65,7 +65,7 @@ public:
 		{
 			std::string::size_type right = in.find(delimiter,left);
 
-			if (right = std::string::npos)
+			if (right == std::string::npos)
 			{
 				break;
 			}
