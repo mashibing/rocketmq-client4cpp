@@ -20,6 +20,7 @@
 #include <string.h>
 #include <sstream>
 #include <vector>
+#include <stdio.h>
 
 int SocketInit()
 {
