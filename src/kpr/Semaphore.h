@@ -17,6 +17,7 @@
 #define __KPR_SEMAPHORE_H__
 
 #include "KPRTypes.h"
+#include <semaphore.h>
 
 #include <errno.h>
 namespace kpr
